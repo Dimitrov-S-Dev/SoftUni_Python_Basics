@@ -1,4 +1,5 @@
 n = int(input())
+
 p1, p2, p3, p4, p5 = 0, 0, 0, 0, 0
 
 for _ in range(n):

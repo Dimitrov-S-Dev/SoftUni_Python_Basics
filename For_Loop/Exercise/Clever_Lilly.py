@@ -1,6 +1,7 @@
 years = int(input())
 washing_machine_price = float(input())
 toy_price = int(input())
+
 collected_money = 0
 toys_count = 0
 money = 0

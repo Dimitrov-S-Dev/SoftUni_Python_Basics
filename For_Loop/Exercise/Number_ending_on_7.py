@@ -1,4 +1,4 @@
-for num in range(1001):
-    if num % 10 == 7:
-        print(num)
+for number in range(1001):
+    if number % 10 == 7:
+        print(number)
         

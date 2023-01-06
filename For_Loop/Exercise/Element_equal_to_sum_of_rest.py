@@ -14,6 +14,6 @@ if max_num == sum_of_numbers - max_num:
     print(f"Yes")
     print(f"Sum = {max_num}")
 else:
-    diff = abs(max_num - (sum_of_numbers - max_num))
+    diffr = abs(max_num - (sum_of_numbers - max_num))
     print("No")
-    print(f"Diff = {diff}")
+    print(f"Diff = {diffr}")
