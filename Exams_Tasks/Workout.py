@@ -12,6 +12,7 @@ for days in range(1, training_days + 1):
     final_run += first_day_run_km
 
 diff = ceil(abs(1000 - final_run))
+
 if final_run >= 1000:
     print(f"You have done a great job running {diff} more kilometers!")
 else:
