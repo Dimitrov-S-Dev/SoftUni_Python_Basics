@@ -20,6 +20,7 @@ for _ in range(number_of_groups):
         everest += current_people
     total_people += current_people
 
+
 percent_musa_ala = musa_ala / total_people * 100
 percent_mon_bla = mon_bla / total_people * 100
 percent_kili_manjaro = kili_manjaro / total_people * 100

@@ -1,6 +1,5 @@
 from math import floor
 
-
 number_of_tournaments = int(input())
 starting_points = int(input())
 W = 2000

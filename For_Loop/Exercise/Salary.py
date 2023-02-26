@@ -1,6 +1,7 @@
 open_browsers = int(input())
 salary = int(input())
 
+
 for _ in range(open_browsers):
     current_browser = input()
     if current_browser == "Facebook":

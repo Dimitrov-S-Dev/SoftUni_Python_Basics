@@ -15,6 +15,7 @@ for _ in range(n):
     else:
         p5 += 1
 
+
 percent_p1 = p1 / n * 100
 percent_p2 = p2 / n * 100
 percent_p3 = p3 / n * 100

@@ -16,6 +16,7 @@ collected_money += toy_price * toys_count
 collected_money -= years // 2
 diff = abs(collected_money - washing_machine_price)
 
+
 if collected_money >= washing_machine_price:
     print(f"Yes! {diff:.2f}")
 else:

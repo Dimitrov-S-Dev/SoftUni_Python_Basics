@@ -10,6 +10,7 @@ for _ in range(n):
         max_num = current_num
     sum_of_numbers += current_num
 
+
 if max_num == sum_of_numbers - max_num:
     print(f"Yes")
     print(f"Sum = {max_num}")
