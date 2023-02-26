@@ -3,6 +3,7 @@ end = int(input())
 magic_num = int(input())
 comb = 0
 is_have_comb = False
+
 for first in range(start, end + 1):
     for second in range(start, end + 1):
         comb += 1
