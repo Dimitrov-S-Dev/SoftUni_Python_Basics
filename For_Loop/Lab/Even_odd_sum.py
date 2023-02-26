@@ -4,6 +4,7 @@ odd_sum = 0
 
 for num in range(1, n + 1):
     current_num = int(input())
+
     if num % 2 == 0:
         even_sum += current_num
     else:

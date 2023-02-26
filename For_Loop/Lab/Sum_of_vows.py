@@ -15,4 +15,5 @@ for char in text:
     elif char == 'u':
         result += 5
 
+
 print(result)

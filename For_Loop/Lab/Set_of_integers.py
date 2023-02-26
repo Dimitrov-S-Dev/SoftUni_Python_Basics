@@ -12,5 +12,6 @@ for _ in range(n):
     if current_num < min_num:
         min_num = current_num
 
+
 print(f"Max number: {max_num}")
 print(f"Min number: {min_num}")

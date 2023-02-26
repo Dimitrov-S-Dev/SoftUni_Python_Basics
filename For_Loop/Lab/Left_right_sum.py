@@ -11,6 +11,7 @@ for right in range(n):
     current_num = int(input())
     right_part += current_num
 
+
 if left_part == right_part:
     print(f"Yes, sum = {left_part}")
 else:
