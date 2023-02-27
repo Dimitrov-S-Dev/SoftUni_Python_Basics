@@ -24,6 +24,7 @@ if products_count >= 25:
 final = total * 0.9
 diff = abs(final - party_price)
 
+
 if final >= party_price:
     print(f"Yes! {diff:.2f} lv left.")
 else:

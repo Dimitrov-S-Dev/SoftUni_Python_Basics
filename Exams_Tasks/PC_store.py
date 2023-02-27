@@ -1,5 +1,5 @@
 dollar = 1.57
-# prices in dollars
+# price in dollars
 processor = float(input())
 video_cart = float(input())
 one_ram = float(input())

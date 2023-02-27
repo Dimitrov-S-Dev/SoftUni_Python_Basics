@@ -21,6 +21,7 @@ else:
     elif season == "winter":
         price = 85
 
+
 price = price * people_count
 
 if season == "summer":

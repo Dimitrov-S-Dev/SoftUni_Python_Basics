@@ -1,6 +1,5 @@
 from math import ceil
 
-
 training_days = int(input())
 first_day_run_km = float(input())
 final_run = first_day_run_km

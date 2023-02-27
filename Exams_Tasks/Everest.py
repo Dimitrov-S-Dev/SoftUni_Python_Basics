@@ -25,6 +25,7 @@ while command != "END":
         break
     command = input()
 
+
 if is_pck_rich:
     print(f"Goal reached for {days} days!")
 else:

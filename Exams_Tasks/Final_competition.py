@@ -20,6 +20,7 @@ elif season == "winter":
     elif location == "Abroad":
         total *= 0.85
 
+
 money_for_charity = total * 0.75
 money_per_dancer = (total - money_for_charity) / dancers
 

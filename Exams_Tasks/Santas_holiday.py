@@ -23,7 +23,6 @@ else:
     price = 18
 
 total = price * discount * days_stay
-
 if feedback == "positive":
     total *= 1.25
 elif feedback == "negative":

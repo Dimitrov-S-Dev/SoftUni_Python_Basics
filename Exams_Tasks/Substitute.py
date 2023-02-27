@@ -4,6 +4,7 @@ m = int(input())
 n = int(input())
 count = 0
 is_finish = False
+
 for first in range(k, 9):
     for second in range(9,l - 1, -1):
         for third in range(m, 9):
@@ -22,8 +23,3 @@ for first in range(k, 9):
             break
     if is_finish:
         break
-
-
-
-
-

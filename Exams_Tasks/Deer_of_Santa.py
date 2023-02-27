@@ -10,6 +10,7 @@ deer_per_day = first_deer_food + second_deer_food + third_deer_food
 
 total_deer_food = deer_per_day * days
 
+
 diff = abs(total_deer_food - food_left)
 if total_deer_food <= food_left:
     print(f"{ceil(diff)} kilos food left.")

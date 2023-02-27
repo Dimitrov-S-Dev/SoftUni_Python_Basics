@@ -17,6 +17,7 @@ while command != "END":
 
 print(f"{max_goals_name} is the best player!")
 
+
 if is_have_hat_trick:
     print(f"He has scored {max_goals} goals and made a hat-trick!!!")
 else:

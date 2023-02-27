@@ -13,6 +13,7 @@ final_degrees = degrees / liters
 print(f"Liter: {liters:.2f}")
 print(f"Degrees: {final_degrees:.2f}")
 
+
 if final_degrees < 38:
     print(f"Not good, you should baking!")
 elif final_degrees <= 42:

@@ -20,6 +20,7 @@ while command != "Stop":
         break
     command = input()
 
+
 if is_all_sold:
     print("God job! Everything is sold.")
 

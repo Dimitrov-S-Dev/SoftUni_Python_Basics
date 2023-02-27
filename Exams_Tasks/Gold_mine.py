@@ -9,6 +9,7 @@ for location in range(location_count):
         location_gold += current_gold
 
     avr_location = location_gold / days_to_dig
+
     if avr_location >= expected_avr_per_day:
         print(f"Good job! Average gold per day: {avr_location:.2f}")
     else:

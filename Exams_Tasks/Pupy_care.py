@@ -13,4 +13,3 @@ if consumed_food <= food_quantity:
     print(f"Food is enough! Leftovers:{diff} grams.")
 else:
     print(f"Food is not enough. You need {diff} grams more.")
-

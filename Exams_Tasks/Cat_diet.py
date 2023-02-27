@@ -18,4 +18,5 @@ total_grams = fat_gram + protein_gram + carb_gram
 calories = total_kcal / total_grams
 calories *= (1 - percent_water)
 
+
 print(f"{calories:.4f}")

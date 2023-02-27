@@ -20,6 +20,7 @@ if people_count >= 4:
 if hours >= 5:
     price *= 0.5
 
+
 price_per_person = price
 print(f"Price per person for one hour: {price:.2f}")
 

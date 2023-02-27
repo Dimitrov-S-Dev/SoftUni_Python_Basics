@@ -11,6 +11,6 @@ astronauts_count = int(ship_volume / room_volume)
 if 3 <= astronauts_count <= 10:
     print(f"The spacecraft holds {astronauts_count} astronauts.")
 elif astronauts_count < 3:
-    print(f"The spacecraft is too small")
+    print(f"The spacecraft is too small.")
 else:
     print(f"The spacecraft is too big.")

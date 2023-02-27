@@ -8,6 +8,7 @@ shoes = (t_shirt_price + shorts_price) * 2
 
 total = (t_shirt_price + shorts_price + socks_price + shoes) * 0.85
 
+
 if total >= target_amount:
     is_ball_won = True
 
