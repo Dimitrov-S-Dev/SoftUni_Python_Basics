@@ -21,5 +21,6 @@ while True:
             is_only_spending = True
             break
 
+
 if not is_only_spending:
     print(f"You saved the money for {days} days.")

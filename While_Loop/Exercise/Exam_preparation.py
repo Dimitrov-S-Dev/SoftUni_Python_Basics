@@ -21,6 +21,7 @@ while task_name != "Enough":
 
 avr_score = grades / tasks_count
 
+
 if not is_excluded:
     print(f"Average score: {avr_score:.2f}")
     print(f"Number of problems: {tasks_count}")

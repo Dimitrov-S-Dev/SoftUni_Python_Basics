@@ -11,6 +11,7 @@ while steps_walked < target:
         current_steps = int(command)
         steps_walked += current_steps
 
+
 diff = abs(target - steps_walked)
 if steps_walked >= target:
     print(f"Goal reached! Good job!")

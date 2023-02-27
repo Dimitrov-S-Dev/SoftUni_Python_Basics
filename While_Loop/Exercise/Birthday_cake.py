@@ -13,6 +13,7 @@ while command != "STOP":
         break
     command = input()
 
+
 if is_cake_over:
     print(f"No more cake left! You need {abs(cake_pieces)} pieces more")
 else:

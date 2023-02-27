@@ -29,4 +29,3 @@ while coins:
         coins = coins % 1
 
 print(coins_count)
-
