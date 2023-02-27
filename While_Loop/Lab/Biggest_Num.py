@@ -1,5 +1,4 @@
 command = input()
-
 max_num = 0
 
 while command != "Stop":

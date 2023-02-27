@@ -16,6 +16,7 @@ while grade < 13:
         grade += 1
         total_grades += year_grade
 
+
 aver_grade = total_grades / 12
 if not is_excluded:
     print(f"{student_name} graduated.Average grade: {aver_grade:.2f}")

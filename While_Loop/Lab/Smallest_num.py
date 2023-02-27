@@ -1,7 +1,5 @@
 import sys
-
 command = input()
-
 min_num = sys.maxsize
 
 while command != "Stop":

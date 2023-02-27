@@ -11,4 +11,5 @@ while command != "NoMoreMoney":
         print(f"Increase: {current_amount}")
     command = input()
 
+
 print(f"{amount:.2f}")
