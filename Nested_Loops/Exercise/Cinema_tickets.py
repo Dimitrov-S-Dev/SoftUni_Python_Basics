@@ -8,6 +8,7 @@ while command != "Finish":
     free_places = int(input())
     ticket_type = input()
     current_taken_places = 0
+
     while ticket_type != "End":
         if ticket_type == "student":
             students += 1

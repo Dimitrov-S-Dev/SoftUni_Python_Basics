@@ -18,5 +18,6 @@ while command != "Finish":
     print(f"{presentation}- {avr_present_points:.2f}")
 
     command = input()
+
 total_aver = total_avr_present / presentations_count
 print(f"Student's final assessment is {total_aver:.2f}")

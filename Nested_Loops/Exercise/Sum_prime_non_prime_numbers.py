@@ -4,6 +4,7 @@ non_prime_sum = 0
 
 while command != "stop":
     number = int(command)
+
     if number < 0:
         print(f"Number is negative")
     else:
