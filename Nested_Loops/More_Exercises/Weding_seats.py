@@ -12,4 +12,5 @@ for letter in range(start, end + 1):
             seats = seats_
         for seat in range(97, (97 + seats)):
             print(f"{chr(letter)}{rows}{(chr(seat))}")
+
     number_of_rows += 1

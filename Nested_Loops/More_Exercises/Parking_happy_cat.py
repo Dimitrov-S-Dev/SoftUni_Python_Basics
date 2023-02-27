@@ -17,4 +17,3 @@ for day in range(1, days_count + 1):
     print(f"Day: {day} - {daily_amount:.2f} lv.")
 
 print(f"Total: {total:.2f} lv.")
-

@@ -16,6 +16,5 @@ for first in range(start, end + 1):
                 continue
             comb += 1
             print(f"{chr(first)}{chr(second)}{chr(third)}", end=" ")
+
 print(comb)
-
-

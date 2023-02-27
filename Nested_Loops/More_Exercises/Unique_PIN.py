@@ -14,3 +14,4 @@ for first_digit in range(1, first_num + 1):
                 continue
 
             print(f"{first_digit} {second_digit} {third_digit}")
+

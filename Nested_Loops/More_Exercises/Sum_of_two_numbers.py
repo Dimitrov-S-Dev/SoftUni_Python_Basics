@@ -12,7 +12,6 @@ for i in range(start, end + 1):
             print(f"({i} + {j} = {magic_number})")
             is_found = True
             break
-
     if is_found:
         break
 
