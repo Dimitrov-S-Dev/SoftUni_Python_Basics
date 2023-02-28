@@ -59,6 +59,46 @@ while command != "stop":
 print(f"Sum of all prime numbers is: {prime_num_sum}")
 print(f"Sum of all non prime numbers is: {non_prime_sum}")
 
+# Task 4 Train the Trainers
+
+jury_count = int(input())
+command = input()
+total_avr_present = 0
+presentations_count = 0
+
+while command != "Finish":
+    presentation = command
+    presentations_count += 1
+    presentation_points = 0
+
+    for points in range(jury_count):
+        current_points = float(input())
+        presentation_points += current_points
+
+    avr_present_points = presentation_points / jury_count
+    total_avr_present += avr_present_points
+
+    print(f"{presentation}- {avr_present_points:.2f}")
+
+    command = input()
+
+total_aver = total_avr_present / presentations_count
+print(f"Student's final assessment is {total_aver:.2f}")
+
+# Task 5 Special Numbers
+
+n = int(input())
+
+for number in range(1111, 9999 + 1):
+    is_special = True
+    number_to_str = str(number)
+
+    for num in number_to_str:
+        if int(num) == 0 or n % int(num) != 0:
+            is_special = False
+            break
+    if is_special:
+        print(number_to_str, end=" ")
 
 
 
