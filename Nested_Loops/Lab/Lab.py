@@ -54,8 +54,8 @@ while True:
     budget = float(input())
 
     while budget >= 0:
-        saving = float(input())
-        budget -= saving
+        savings = float(input())
+        budget -= savings
     print(f"Going to {destination}")
 
 # Task 6 Building
