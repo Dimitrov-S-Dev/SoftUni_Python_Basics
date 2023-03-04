@@ -23,3 +23,4 @@ while True:
         max_word = command
 
 print(f"The most powerful word is {max_word} - {max_points}")
+
