@@ -10,9 +10,7 @@ end_2 = int(end[1])
 end_3 = int(end[2])
 end_4 = int(end[3])
 
-
-
-for a in range(start_1, end_1):
+for a in range(start_1, end_1 + 1):
     if a % 2 == 0:
         continue
     for b in range(start_2, end_2 + 1):
