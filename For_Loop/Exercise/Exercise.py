@@ -1,3 +1,5 @@
+import sys
+from math import floor
 # Task 1 Numbers to 1000 Ending on 7
 
 for number in range(1001):
@@ -5,8 +7,6 @@ for number in range(1001):
         print(number)
 
 # Task 2 Element Equal to Sum of Rest
-
-import sys
 
 n = int(input())
 max_num = -sys.maxsize
@@ -164,8 +164,6 @@ print(f"{percent_k2:.2f}%")
 print(f"{percent_everest:.2f}%")
 
 # Task 8 Tennis Ranking
-
-from math import floor
 
 number_of_tournaments = int(input())
 starting_points = int(input())
