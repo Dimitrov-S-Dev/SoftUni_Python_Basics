@@ -1,3 +1,4 @@
+import sys
 # Task 1 Words Reading
 
 command = input()
@@ -70,7 +71,6 @@ print(max_num)
 
 # Task 7 Smallest Number
 
-import sys
 command = input()
 min_num = sys.maxsize
 
