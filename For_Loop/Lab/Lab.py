@@ -1,9 +1,11 @@
+import sys
 # Task 1 Numbers from 1 to 100
 
 for num in range(1, 100):
     print(num)
 
 # Task 2 Numbers from 1 to N with step 3
+
 n = int(input())
 for number in range(1, n + 1, 3):
     print(number)
@@ -59,8 +61,6 @@ for _ in range(n):
 print(result)
 
 # Task 8 Set of Integers
-
-import sys
 
 max_num = -sys.maxsize
 min_num = sys.maxsize
