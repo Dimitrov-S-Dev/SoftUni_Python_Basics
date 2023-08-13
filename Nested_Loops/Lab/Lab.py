@@ -72,5 +72,5 @@ for floor in range(floor_count, 0, -1):
             letter = "O"
         else:
             letter = "A"
-        print(f"{letter}{floor}{room}",end=" ")
+        print(f"{letter}{floor}{room}", end=" ")
     print()
