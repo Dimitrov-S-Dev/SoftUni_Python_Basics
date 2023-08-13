@@ -176,7 +176,6 @@ while command != "Done":
         break
     command = input()
 
-
 if is_have_space:
     print(f"{space_volume} Cubic meters left.")
 else:
