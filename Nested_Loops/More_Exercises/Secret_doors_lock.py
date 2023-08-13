@@ -13,5 +13,4 @@ for i in range(1, first_num + 1):
         for k in range(1, third_num + 1):
             if k % 2 != 0:
                 continue
-
             print(f"{i} {j} {k}")

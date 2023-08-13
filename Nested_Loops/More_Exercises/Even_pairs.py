@@ -1,5 +1,6 @@
 first = int(input())
 second = int(input())
+
 first_end = first + int(input())
 second_end = second + int(input())
 

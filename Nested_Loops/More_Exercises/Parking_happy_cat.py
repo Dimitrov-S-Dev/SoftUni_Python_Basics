@@ -6,6 +6,7 @@ price = 1
 for day in range(1, days_count + 1):
     daily_amount = 0
     for hour in range(1, hours_count + 1):
+
         if day % 2 == 0 and hour % 2 != 0:
             price = 2.5
         elif day % 2 != 0 and hour % 2 == 0:

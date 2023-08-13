@@ -6,6 +6,7 @@ seats = seats_
 
 for letter in range(start, end + 1):
     for rows in range(1, number_of_rows + 1):
+
         if rows % 2 == 0:
             seats *= 2
         else:

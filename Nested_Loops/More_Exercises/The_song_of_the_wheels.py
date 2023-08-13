@@ -2,7 +2,7 @@ control_numb = int(input())
 count = 0
 password = ""
 
-for a in range(1,10):
+for a in range(1, 10):
     for b in range(1, 10):
         for c in range(1, 10):
             for d in range(1, 10):

@@ -1,6 +1,7 @@
 start = int(input())
 end = int(input())
 magic_number = int(input())
+
 comb = 0
 is_found = False
 

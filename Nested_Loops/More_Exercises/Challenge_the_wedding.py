@@ -1,7 +1,6 @@
 mens = int(input())
 women = int(input())
 tables = int(input())
-
 is_finish = False
 
 for m in range(1, mens + 1):
