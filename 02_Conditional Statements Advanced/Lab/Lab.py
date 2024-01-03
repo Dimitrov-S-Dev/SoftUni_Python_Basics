@@ -121,3 +121,22 @@ if city == "Varna":
     elif product == "peanuts":
         price = 1.55
         print(quantity * price)
+
+# Task 6 Number in Range
+
+num = int(input())
+
+if -100 <= num <= 100 and num != 0:
+    print("Yes")
+else:
+    print("No")
+
+# Task 7 Working Hours
+
+hour = int(input())
+day_of_week = input()
+
+if 10 <= hour <= 18 and day_of_week != "Sunday":
+    print("open")
+else:
+    print("closed")
