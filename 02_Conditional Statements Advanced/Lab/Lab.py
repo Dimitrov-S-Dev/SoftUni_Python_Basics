@@ -47,3 +47,77 @@ elif animal == "snake" \
     print("reptile")
 else:
     print("unknown")
+
+# Task 4 Personal Titles
+
+age = float(input())
+gender = input()
+
+if gender == "m":
+    if age >= 16:
+        print("Mr.")
+    else:
+        print("Master")
+if gender == "f":
+    if age >= 16:
+        print("Ms.")
+    else:
+        print("Miss")
+
+# Task 5 Small Shop
+
+product = input()
+city = input()
+quantity = float(input())
+price = 0
+
+if city == "Sofia":
+    if product == "coffee":
+        price = 0.5
+        print(quantity * price)
+    elif product == "water":
+        price = 0.8
+        print(quantity * price)
+    elif product == "beer":
+        price = 1.2
+        print(quantity * price)
+    elif product == "sweets":
+        price = 1.45
+        print(quantity * price)
+    elif product == "peanuts":
+        price = 1.6
+        print(quantity * price)
+
+if city == "Plovdiv":
+    if product == "coffee":
+        price = 0.4
+        print(quantity * price)
+    elif product == "water":
+        price = 0.7
+        print(quantity * price)
+    elif product == "beer":
+        price = 1.15
+        print(quantity * price)
+    elif product == "sweets":
+        price = 1.30
+        print(quantity * price)
+    elif product == "peanuts":
+        price = 1.5
+        print(quantity * price)
+
+if city == "Varna":
+    if product == "coffee":
+        price = 0.45
+        print(quantity * price)
+    elif product == "water":
+        price = 0.7
+        print(quantity * price)
+    elif product == "beer":
+        price = 1.1
+        print(quantity * price)
+    elif product == "sweets":
+        price = 1.35
+        print(quantity * price)
+    elif product == "peanuts":
+        price = 1.55
+        print(quantity * price)
