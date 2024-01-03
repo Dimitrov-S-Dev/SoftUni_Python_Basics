@@ -67,23 +67,23 @@ import math
 shape = input()
 a = None
 b = None
-result = None
+area = None
 
 if shape == "square":
     a = float(input())
-    result = a * a
+    area = a * a
 elif shape == "rectangle":
     a = float(input())
     b = float(input())
-    result = a * b
+    area = a * b
 elif shape == "circle":
     a = float(input())
-    result = a ** 2 * math.pi
+    area = a ** 2 * math.pi
 elif shape == "triangle":
     a = float(input())
     b = float(input())
-    result = (a * b) / 2
+    area = (a * b) / 2
 
-print(f"{result:.3f}")
+print(f"{area:.3f}")
 
 
