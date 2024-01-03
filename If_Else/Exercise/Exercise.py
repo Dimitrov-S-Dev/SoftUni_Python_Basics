@@ -102,15 +102,35 @@
 
 # Task 6 Swimming World record
 
-record_in_seconds = float(input())
-distance_in_meters = float(input())
-seconds_for_one_meter = float(input())
+# record_in_seconds = float(input())
+# distance_in_meters = float(input())
+# seconds_for_one_meter = float(input())
+#
+# water_resistance = (distance_in_meters // 15) * 12.5
+# swimmer_seconds = seconds_for_one_meter * distance_in_meters + water_resistance
+#
+# if swimmer_seconds >= record_in_seconds:
+#     print(f"No, he failed! He was {swimmer_seconds - record_in_seconds:.2f} seconds slower.")
+# else:
+#     print(f"Yes, he succeeded! The new world record is {swimmer_seconds:.2f} seconds.")
 
-water_resistance = (distance_in_meters // 15) * 12.5
-swimmer_seconds = seconds_for_one_meter * distance_in_meters + water_resistance
+# Task 7 Shopping
 
-if swimmer_seconds >= record_in_seconds:
-    print(f"No, he failed! He was {swimmer_seconds - record_in_seconds:.2f} seconds slower.")
-else:
-    print(f"Yes, he succeeded! The new world record is {swimmer_seconds:.2f} seconds.")
-
+# budget = float(input())
+#
+# video_card_count = int(input())
+# processors_count = int(input())
+# ram_count = int(input())
+#
+# video_card_price = video_card_count * 250
+# processors_price = processors_count * video_card_price * 0.35
+# ram_price = ram_count * video_card_price * 0.1
+#
+# price = video_card_price + processors_price + ram_price
+# if video_card_count > processors_count:
+#     price *= 0.85
+#
+# if price <= budget:
+#     print(f"You have {budget - price:.2f} leva left!")
+# else:
+#     print(f"Not enough money! You need {price - budget:.2f} leva more!")
