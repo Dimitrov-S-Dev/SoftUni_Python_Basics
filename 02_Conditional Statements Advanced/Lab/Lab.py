@@ -140,3 +140,18 @@ if 10 <= hour <= 18 and day_of_week != "Sunday":
     print("open")
 else:
     print("closed")
+
+# Task 8 Cinema Ticket
+
+day_of_week = input()
+price = None
+
+if day_of_week == "Monday" or day_of_week == "Tuesday"\
+        or day_of_week == "Friday":
+    price = 12
+elif day_of_week == "Wednesday" or day_of_week == "Thursday":
+    price = 14
+else:
+    price = 16
+
+print(price)
