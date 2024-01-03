@@ -155,3 +155,74 @@ else:
     price = 16
 
 print(price)
+
+# Task 9 Fruit or Vegetable
+
+product = input()
+
+if product == "banana" or product == "apple"\
+                or product == "kiwi"\
+                or product == "cherry"\
+                or product == "lemon"\
+                or product == "grapes":
+    print("fruit")
+elif product == "tomato" or product == "cucumber"\
+                or product == "pepper"\
+                or product == "carrot":
+    print("vegetable")
+else:
+    print("unknown")
+
+# Task 10 Invalid Number
+
+num = int(input())
+
+if 100 <= num <= 200 or num == 0:
+    pass
+else:
+    print("invalid")
+
+# Task 11 Fruit Shop
+
+fruit = input()
+day_of_week = (input())
+qty = float(input())
+
+total = 0
+if day_of_week == "Saturday" or day_of_week == "Sunday":
+    if fruit == "banana":
+        total = qty * 2.7
+    elif fruit == "apple":
+        total = qty * 1.25
+    elif fruit == "orange":
+        total = qty * 0.9
+    elif fruit == "grapefruit":
+        total = qty * 1.6
+    elif fruit == "kiwi":
+        total = qty * 3
+    elif fruit == "pineapple":
+        total = qty * 5.6
+    elif fruit == "grapes":
+        total = qty * 4.2
+elif day_of_week == "Monday" or day_of_week == "Tuesday"\
+                    or day_of_week == "Wednesday"\
+                    or day_of_week == "Thursday"\
+                    or day_of_week == "Friday":
+    if fruit == "banana":
+        total = qty * 2.5
+    elif fruit == "apple":
+        total = qty * 1.2
+    elif fruit == "orange":
+        total = qty * 0.85
+    elif fruit == "grapefruit":
+        total = qty * 1.45
+    elif fruit == "kiwi":
+        total = qty * 2.7
+    elif fruit == "pineapple":
+        total = qty * 5.5
+    elif fruit == "grapes":
+        total = qty * 3.85
+if total == 0:
+    print("error")
+else:
+    print(f"{total:.2f}")
