@@ -268,3 +268,36 @@ else:
     result += " after the start"
 print(result)
 
+# Task 9 Ski Trip
+
+days = int(input()) - 1
+room_type = input()
+mark = input()
+
+price = 0
+
+if room_type == "room for one person":
+    price = 18 * days
+elif room_type == "apartment":
+    price = 25 * days
+    if days < 10:
+        price *= 0.7
+    elif 10 <= days <= 15:
+        price *= 0.65
+    else:
+        price *= 0.5
+elif room_type == "president apartment":
+    price = 35 * days
+    if days < 10:
+        price *= 0.9
+    elif 10 <= days <= 15:
+        price *= 0.85
+    else:
+        price *= 0.8
+
+if mark == "positive":
+    price *= 1.25
+else:
+    price *= 0.9
+
+print(f"{price:.2f}")
