@@ -101,8 +101,8 @@ for _ in range(open_browsers):
     if salary <= 0:
         print("You have lost your salary")
         break
-
-print(f"{salary:.2f}")
+else:
+    print(f"{salary:.2f}")
 
 # Task 6 Oscars
 
