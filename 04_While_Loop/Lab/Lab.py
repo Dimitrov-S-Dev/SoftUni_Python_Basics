@@ -48,9 +48,9 @@ while command != "NoMoreMoney":
     if current_amount < 0:
         print(f"Invalid operation!")
         break
-    else:
-        amount += current_amount
-        print(f"Increase: {current_amount}")
+
+    amount += current_amount
+    print(f"Increase: {current_amount}")
     command = input()
 
 
