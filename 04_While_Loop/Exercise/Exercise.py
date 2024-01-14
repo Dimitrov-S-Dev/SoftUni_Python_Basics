@@ -53,30 +53,27 @@ if last_task:
 
 needed_money = float(input())
 money_in_hand = float(input())
-spending_days = 0
-days = 0
-is_only_spending = False
+spending_count = 0
+days_count = 0
 
 while True:
-    days += 1
-    action = input()
-    amount = float(input())
-    if action == "save":
-        spending_days = 0
-        money_in_hand += amount
-        if money_in_hand >= needed_money:
-            break
+    days_count += 1
+    command = input()
+    curr_money = float(input())
+    if command == "save":
+        spending_count = 0
+        money_in_hand += curr_money
     else:
-        spending_days += 1
-        if spending_days == 5:
-            print(f"You cant save the money.")
-            print(days)
-            is_only_spending = True
-            break
+        spending_count += 1
+        money_in_hand = max(money_in_hand - curr_money, 0)
+    if spending_count == 5:
+        print(f"You can't save the money.")
+        print(f"{days_count}")
+        break
 
-
-if not is_only_spending:
-    print(f"You saved the money for {days} days.")
+    if money_in_hand >= needed_money:
+        print(f"You saved the money for {days_count} days.")
+        break
 
 # Task 4 Steps
 
@@ -133,7 +130,7 @@ while coins:
         coins_count += coins // 1
         coins = coins % 1
 
-print(coins_count)
+print(int(coins_count))
 
 # Task 6 Birthday Cake
 
