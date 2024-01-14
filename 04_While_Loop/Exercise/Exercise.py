@@ -22,32 +22,32 @@ if not is_found:
 
 max_bad_marks = int(input())
 task_name = input()
-poor_grades = 0
-grades = 0
-is_excluded = False
-tasks_count = 0
 last_task = ""
+bad_marks = 0
+score = 0
+task_num = 0
+flag = False
 
 while task_name != "Enough":
     last_task = task_name
-    tasks_count += 1
-    current_grade = int(input())
-    if current_grade <= 4:
-        poor_grades += 1
-        if max_bad_marks == poor_grades:
-            print(f"You need a break,{poor_grades} poor grades")
-            is_excluded = True
-            break
-    grades += current_grade
+    curr_mark = int(input())
+    score += curr_mark
+    task_num += 1
+    if curr_mark <= 4:
+        bad_marks += 1
+    if bad_marks == max_bad_marks:
+        flag = True
+        break
     task_name = input()
 
-avr_score = grades / tasks_count
-
-
-if not is_excluded:
-    print(f"Average score: {avr_score:.2f}")
-    print(f"Number of problems: {tasks_count}")
-    print(f"Last problem: {last_task}")
+if last_task:
+    avg = score / task_num
+    if flag:
+        print(f"You need a break, {bad_marks} poor grades.")
+    else:
+        print(f"Average score: {avg:.2f}")
+        print(f"Number of problems: {task_num}")
+        print(f"Last problem: {last_task}")
 
 # Task 3 Vacation
 
