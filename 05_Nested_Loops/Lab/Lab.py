@@ -53,7 +53,7 @@ while True:
         break
     budget = float(input())
 
-    while budget >= 0:
+    while budget > 0:
         savings = float(input())
         budget -= savings
     print(f"Going to {destination}")
